@@ -2,5 +2,5 @@ django
 djangorestframework
 requests
 django-cors-headers
-psycopg2-binary==2.9.1
+asyncpg==0.28.0
 PyJWT
