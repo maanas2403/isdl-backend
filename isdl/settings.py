@@ -71,7 +71,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'isdl.wsgi.application'
+# WSGI_APPLICATION = 'isdl.wsgi.application'
+WSGI_APPLICATION = 'isdl.wsgi.app'
 
 
 # Database
