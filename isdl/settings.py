@@ -51,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware', #added
+    'django.middleware.common.CommonMiddleware'
 ]
 
 ROOT_URLCONF = 'isdl.urls'
