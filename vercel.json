@@ -9,5 +9,8 @@
             "src": "/(.*)",
             "dest": "isdl/wsgi.py"
         }
-    ]
+    ],
+    "env": {
+    "PG_CONFIG": "/path/to/pg_config"
+  }
 }
