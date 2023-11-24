@@ -11,6 +11,6 @@
         }
     ],
     "env": {
-    "PG_CONFIG": "/path/to/pg_config"
+    "PG_CONFIG": "./pg_config"
   }
 }
