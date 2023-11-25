@@ -81,14 +81,11 @@ WSGI_APPLICATION = 'isdl.wsgi.app'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'isdlDB',
-        'USER':'postgres',
-        'PASSWORD':'Shivral31',
-        'HOST':'127.0.0.1',
-        'PORT':'5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 
 
 # Password validation
